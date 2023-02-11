@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Shopflow</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+  </head>
+  <body>
+    <div>
+      <div class="split left">
+        <div>
+          <div class="header">
+            <div>Filter By:</div>
+          </div>
+          <div class="wrapFilterSection">
+            <div class="wrapGap">
+              <p class="Input_label">color</p>
+              <div class="wrapFilterBtn">
+                <button
+                  class="button button1"
+                  name="btn1"
+                  value="#f0b49e"
+                  type="button"
+                ></button>
+                <button
+                  class="button button2"
+                  name="btn2"
+                  value="#f4ead5"
+                  type="button"
+                ></button>
+                <button
+                  class="button button3"
+                  name="btn3"
+                  value="#4b000f"
+                  type="button"
+                ></button>
+                <button
+                  class="button button4"
+                  name="btn4"
+                  type="button"
+                  value="#99173c"
+                ></button>
+                <button
+                  class="button button5"
+                  name="btn4"
+                  type="button"
+                  value="#1a1f1e"
+                ></button>
+                <button
+                  class="button button6"
+                  name="btn4"
+                  type="button"
+                  value="#e6f9bc"
+                ></button>
+              </div>
+            </div>
+            <div class="wrapGap">
+              <p class="Input_label">title/subtitle</p>
+              <input
+                type="text"
+                class="titleInput"
+                placeholder="Search across title and subtitle"
+              />
+            </div>
+          </div>
+          <div class="wrapProgessBar">
+            <div class="container">
+              <div class="progress html"></div>
+            </div>
+              <div class="completeText">0/5 Creatives</div>
+            </div>
+            <div>
+                <button
+                  class="addCreativeBtn"
+                  type="button"
+                  name="button"
+                >
+                 + Add Creative
+                </button>
+            </div>
+          </div>
+          <div class="wrapGap">
+            <div id="CardSection" class="CardSection">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="split right">
+        <div>
+          <div class="header">
+            <div>Creative Creation</div>
+            <button class="cross">x</button>
+          </div>
+          <form id="formdata" method="post">
+            <div class="wrapGap">
+              <p class="Input_label">title</p>
+              <input
+                type="text"
+                class="title"
+                name="array[]"
+                placeholder="This is a title!"
+              />
+            </div>
+            <div class="wrapGap">
+              <p class="Input_label">subtitle</p>
+              <input
+                type="text"
+                class="subTitle"
+                name="array[]"
+                placeholder="This is a subtitle!"
+              />
+            </div>
+            <div class="wrapGap">
+              <p class="Input_label">background color</p>
+              <div class="wrapBtn">
+                <button
+                  class="button button1"
+                  id="btn1"
+                  value="#f0b49e"
+                  type="button"
+                ></button>
+                <button
+                  class="button button2"
+                  id="btn2"
+                  value="#f4ead5"
+                  type="button"
+                ></button>
+                <button
+                  class="button button3"
+                  id="btn3"
+                  value="#4b000f"
+                  type="button"
+                ></button>
+                <button
+                  class="button button4"
+                  type="button"
+                  id="btn4"
+                  value="#99173c"
+                ></button>
+                <button
+                  class="button button5"
+                  id="btn5"
+                  type="button"
+                  value="#1a1f1e"
+                ></button>
+                <button
+                  class="button button6"
+                  id="btn6"
+                  type="button"
+                  value="#e6f9bc"
+                ></button>
+              </div>
+            </div>
+            <div class="wrapGap">
+              <button
+                class="done"
+                type="button"
+                name="button"
+                onclick="submitForm()"
+              >
+                Done
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
