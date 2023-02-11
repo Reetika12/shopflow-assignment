@@ -58,7 +58,6 @@
         font-weight: bold;
         cursor: pointer;
         margin-top: 30px;
-        /* disabled:false; */
   }
   .cross{
       font-size: 30px;
@@ -114,9 +113,6 @@
         margin: 5px 3px;
         cursor: pointer;
       }
-      /* .button:hover{
-          border:1px solid black;
-      } */
       .button1 {  background-color: #f0b49e;}
       .button2 {  background-color: #f4ead5;}
       .button3 {  background-color: #4b000f;}
@@ -148,17 +144,13 @@
 .CardSection{
     display:flex;
     flex-direction: column;
-    /* align-items: center; */
 }
  .Card{
   display:flex;
-  /* color:#e6f9bc; */
   flex-direction: column;
   width:300px;
   height:140px;
-  /* align-items: center; */
   justify-content: center;
-  /* background-color: #e6f9bc; */
   border:1px solid #000;
   padding-left:20px;
   margin:10px 0px;
